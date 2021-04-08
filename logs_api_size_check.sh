@@ -5,7 +5,7 @@ echo shell start
 TOMCAT_LOG_BACK_DIR=/data/logs/tomcat_api/catalina_back
 TOMCAT_LOG_DIR=/data/logs/tomcat_api/catalina.out
 
-LOGFILE='/home/ktipmedia/CRON_EXEC_LOG_API.log'
+LOGFILE='/home/server/CRON_EXEC_LOG_API.log'
 
 if [ `find $TOMCAT_LOG_DIR -size +3G` ]
 then
